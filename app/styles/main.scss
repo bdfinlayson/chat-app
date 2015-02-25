@@ -16,9 +16,14 @@ html {
   display: flex;
 }
 
+.chat {
+	display: none;
+}
+
 .chatWrapper,
 .chatWindow {
 	width: 100%;
 	padding: 100px;
 	background-color: black;
+	display:none;
 }
