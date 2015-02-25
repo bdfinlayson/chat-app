@@ -17,13 +17,11 @@ html {
 }
 
 .chat {
-	display: none;
+	display: hidden;
 }
 
-.chatWrapper,
-.chatWindow {
-	width: 100%;
-	padding: 100px;
-	background-color: black;
-	display:none;
+#chatWrapper,
+#chatWindow {
+	background-color: white;
+	display:hidden;
 }
