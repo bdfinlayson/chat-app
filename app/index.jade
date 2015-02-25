@@ -1,0 +1,44 @@
+doctype html
+html(lang='en-US')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title My Title
+    link(rel='stylesheet', href='css/main.css')
+  body
+      <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+      .container
+        h1 The Chat Room
+
+        form.logout
+          input(id='logoutButton' type='button' value='logout')
+
+        form.login
+          input(id='user' type='text' placeholder='enter username')
+          input(id='password' type='text' placeholder='enter passoword')
+          input(id='loginButton' type='button' value='login')
+          input(id='registerButton' type='button' value='register')
+
+
+
+        form.chat
+          div(id='userName')
+          input(id="userMessage" type="text" placeholder="enter message")
+          input(id="submitButton" type="button" value="submit")
+
+        div(id="chatWrapper")
+          div(id="chatWindow")
+            table
+              tbody
+
+      // build:js js/vendor.min.js
+      // bower:js
+      // endbower
+      // endbuild
+      // build:js js/main.min.js
+      script(src="../bower_components/firebase/firebase.js")
+      script(src="../bower_components/jquery/dist/jquery.min.js")
+      script(src="/scripts/index.js")
+      // endbuild

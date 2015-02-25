@@ -1,0 +1,24 @@
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
+html {
+	background: blue;
+}
+
+.test {
+  display: flex;
+}
+
+.test2 {
+  display: flex;
+}
+
+.test3 {
+  display: flex;
+}
+
+.chatWrapper,
+.chatWindow {
+	width: 100%;
+	padding: 100px;
+	background-color: black;
+}

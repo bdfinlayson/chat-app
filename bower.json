@@ -1,0 +1,21 @@
+{
+  "name": "chat-app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bdfinlayson/chat-app",
+  "authors": [
+    "Bryan Finlayson <bdfinlayson@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.1",
+    "bootstrap-sass": "~3.3.3",
+    "lodash": "~3.3.1"
+  }
+}
